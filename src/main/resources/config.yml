@@ -3,9 +3,6 @@
 # Mininum Minecraft version required: 1.18
 # Recommended Minecraft version(s): 1.18.2-LATEST
 
-# DO NOT CHANGE!!!
-config-version: 1
-
 serverdetails:
   # {servername} = the servername, check below
   # {ownername} = the ownername, check below
@@ -24,8 +21,6 @@ serverdetails:
   owner-name: "Nina"
   # what people to reach out for when someone has questions, and it must be minecraft name, not discord name.
   helpers: "realguystuff, praneethprogame, and R34per" # Remember to put ", and" because the plugin won't do it for you!
-  # link. can be discord link or a website.
-  link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
   
 
 # logs "<player> has mined <ore>!". disable some of these if the console gets spammed by "<player> has mined <ore>!"
