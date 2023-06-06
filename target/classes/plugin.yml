@@ -1,0 +1,50 @@
+name: NinaEssentials
+main: io.github.realguystuff.ninaessentials.NinaEssentials
+version: 0.1.0
+description: This plugin gives support to Minecraft servers that Nina helps or moderates.
+api-version: 1.18
+load: POSTWORLD
+authors: [realguystuff, Nina, praneethprogame]
+#depend: [ProtocolLib, PlaceholderAPI]
+permissions:
+  ninaessentials.setfire:
+    description: "The ability to set someone on fire."
+    default: op
+  ninaessentials.staff:
+    description: "Staff permission."
+    default: op
+  ninaessentials.tntkill:
+    description: "The ability to kill someone using TNT."
+    default: op
+  ninaessentials.fakeexplosion:
+    description: "The ability to give a player a fake explosion."
+    default: not op
+  ninaessentials.randomfact:
+    description: "The ability to get a random fun fact."
+    default: not op
+commands:
+  staffchat:
+    description: "Talk to staffchat ingame. NOT discord."
+    usage: "/command <arg>"
+    permission: ninaessentials.staff
+    permission-message: "You do not have permission to use this command."
+  setfire:
+    description: "Sets someone on fire."
+    usage: "/command <arg>"
+    permission: ninaessentials.setfire
+    permission-message: "You do not have permission to use this command."
+  fakeexplosion:
+    description: "Give someone a fake explosion"
+    usage: "/command <arg>"
+    permission: ninaessentials.fakeexplosion
+    permission-message: "You do not have permission to use this command"
+  randomfact:
+    description: "You get a random fun fact."
+    usage: "/command <arg>"
+    permission: ninaessentials.randomfact
+    permission-message: "You do not have permission to use this command"
+  tntkill:
+    description: "Kill someone using TNT."
+    usage: "/command <arg>"
+    permission: ninaessentials.tntkill
+    permission-message: "You do not have permission to use this command"
