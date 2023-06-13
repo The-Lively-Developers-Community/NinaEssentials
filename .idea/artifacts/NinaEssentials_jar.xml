@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="NinaEssentials:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/NinaEssentials_jar</output-path>
+    <root id="archive" name="NinaEssentials.jar">
+      <element id="module-output" name="NinaEssentials" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/plugin.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/io/github/realguystuff/ninaessentials/FakeExplosion.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/io/github/realguystuff/ninaessentials/RandomFact.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/io/github/realguystuff/ninaessentials/SetFire.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/io/github/realguystuff/ninaessentials/StaffChat.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/io/github/realguystuff/ninaessentials/TNTKill.java" />
+    </root>
+  </artifact>
+</component>
